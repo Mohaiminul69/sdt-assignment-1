@@ -1,0 +1,27 @@
+body {
+  background: rgb(7, 7, 7);
+  font-family: "DM Sans", sans-serif;
+}
+
+#hero {
+  background: url("../images/90526971_3883013708376210_7278115171640279040_n.jpg")
+    no-repeat center center/cover;
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+#hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    22deg,
+    rgba(66, 19, 28, 0.95) 0%,
+    rgba(0, 0, 0, 0.95) 45%
+  );
+  z-index: -1;
+}
