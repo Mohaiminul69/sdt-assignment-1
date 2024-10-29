@@ -3,6 +3,11 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
 #hero {
   background: url("../images/90526971_3883013708376210_7278115171640279040_n.jpg")
     no-repeat center center/cover;
