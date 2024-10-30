@@ -70,7 +70,7 @@
     <main>
       <section id="hero">
         <div
-          class="container text-white d-flex flex-column justify-content-center h-100 align-items-start"
+          class="px-4 px-md-0 container text-white d-flex flex-column justify-content-center h-100 align-items-start"
         >
           <h1>Hello<span class="text-danger">,</span></h1>
           <h1>My name is <span class="text-danger">Shishir</span></h1>
@@ -308,7 +308,7 @@
       </section>
 
       <section id="skills" class="my-1 my-md-5">
-        <div class="container text-white">
+        <div class="container text-white p-md-0">
           <div class="row row-cols-1 row-cols-lg-2 g-4 px-2 px-md-3 pt-5">
             <div class="col-12 col-lg-6">
               <div class="d-flex flex-column gap-3">
@@ -409,6 +409,92 @@
                     <p class="fs-7">Programming Hero • Completed in 2022</p>
                   </ul>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container text-white px-md-0">
+          <h1 class="text-center mb-5 mt-4 my-md-5">
+            Contact <span class="text-danger">Info</span>
+          </h1>
+          <div class="row g-3">
+            <div class="col-12 col-md-6 mb-0">
+              <div class="bg-black p-3 rounded-3 mb-3">
+                <i class="mb-3 text-danger fs-3 fas fa-mobile-alt"></i>
+                <h4>Contact Number</h4>
+                <p class="mb-0">+88 017 8650 3069</p>
+              </div>
+              <div class="bg-black p-3 rounded-3 mb-3">
+                <i class="mb-3 text-danger fs-3 fas fa-link"></i>
+                <h4 class="mb-3">Social Links</h4>
+                <div class="d-flex gap-4">
+                  <a href="https://www.facebook.com/dew.haven/"
+                    ><i class="fa-brands fa-facebook fs-4 text-danger"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/mohaiminul-islam-shishir/"
+                    ><i class="fa-brands fa-linkedin fs-4 text-danger"></i
+                  ></a>
+                  <a href="https://github.com/mohaiminul69/"
+                    ><i class="fa-brands fa-github fs-4 text-danger"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="bg-black p-3 rounded-3">
+                <i class="mb-3 text-danger fs-3 fas fa-at"></i>
+                <h4>Email Address</h4>
+                <p class="mb-0">mohaiminul.islam.shishir@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="bg-black p-3 rounded-3 h-100">
+                <i class="mb-2 text-danger fs-3 far fa-envelope"></i>
+                <h3>Contact Form</h3>
+                <form class="row g-3">
+                  <div class="col-md-5">
+                    <label class="form-label">Name</label>
+                    <input
+                      name="name"
+                      placeholder="Your Name"
+                      type="text"
+                      class="form-control"
+                    />
+                  </div>
+                  <div class="col-md-7">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input
+                      name="email"
+                      placeholder="Your Email"
+                      type="email"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label">Subject</label>
+                    <input
+                      name="subject"
+                      type="text"
+                      class="form-control"
+                      placeholder="Subject"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label">Message</label>
+                    <textarea
+                      name="message"
+                      placeholder="Leave a Message"
+                      class="form-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
